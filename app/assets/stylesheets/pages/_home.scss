@@ -50,3 +50,9 @@ section {
   height: 2px;
   background-color: white;
 }
+
+@media (min-width: 100px) and (max-width: 575px) {
+  header {
+    margin-top: 5vh;
+  }
+}
