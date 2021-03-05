@@ -1,1 +1,52 @@
-// Specific CSS for your home-page
+// @font-face {
+//   font-family: "Gotham";
+//   src: url("Gotham-Bold.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "Proxima";
+//   src: url("ProximaNova-Regular.ttf") format("truetype");
+// }
+
+body {
+  background-color: $background;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  h2 {
+    color: white;
+    font-size: 37px;
+    margin-bottom: 3vh;
+    font-family: "Gotham";
+    text-align: center;
+  }
+  p {
+    color: $text;
+    font-size: 19px;
+    width: 70%;
+    text-align: center;
+    margin-top: 3vh;
+    font-family: "Proxima";
+  }
+}
+
+section {
+  display: flex;
+  margin: 34px 24px 10vh 24px;
+}
+
+.seperator {
+  width: 4%;
+  height: 2px;
+  background-color: white;
+}
