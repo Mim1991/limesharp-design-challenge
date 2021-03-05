@@ -4,7 +4,7 @@ const initExpansion = () => {
   card.forEach((card) => {
     card.addEventListener("click", function () {
       const button = this.childNodes[3].lastElementChild;
-      console.log(button.src);
+      const cards = document.querySelector(".cards");
       const textCard = this.children[1].children[1];
       if (
         textCard.innerText ===
@@ -28,6 +28,8 @@ const initExpansion = () => {
         button.src =
           "http://localhost:3000/assets/plus-6e07896c249f5d353787548226300b5868b705c2c70067c5665f888a90dc30fe.png";
       }
+
+      cards.classList.toggle("card-close");
     });
   });
 };
