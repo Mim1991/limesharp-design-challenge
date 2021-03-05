@@ -66,17 +66,16 @@
   width: 30px;
 }
 
+.text-hidden {
+  display: none;
+}
+
 /*Smallest*/
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
     row-gap: 24px;
   }
-
-  header {
-    margin-top: 5vh;
-  }
-
   .page-header {
     font-size: 28px;
     width: 80%;
@@ -95,7 +94,13 @@
 }
 
 /*Medium*/
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1320px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
