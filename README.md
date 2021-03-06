@@ -32,3 +32,5 @@ Run the following command to install the relevant Ruby gems:
    - On the js-modal branch, the text is included in the html and the function toggles a display class if the user wanted to change the text in each modal. 
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/68198668/110201698-8053d200-7e5c-11eb-98da-ba6040873b98.gif)
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/68198668/110201838-0ec85380-7e5d-11eb-93a4-52f2e242024e.gif)
